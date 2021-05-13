@@ -27,9 +27,9 @@ Contains two functions: sequential_extrapolate extrapolates a one dimensional da
 #### **Regression.py**
 Contains the parent class Regression, and then the child classes LiR (Linear Regression), RR (Ridge Regression), and KRR (Kernel Ridge Regression).  Performs close form linear, ridge, and kernel ridge regression on a given data set.  Since the closed form solutions involve taking the inverse of a matrix, there is a potential for a singularity error.
 #### **Support.py**
-Contains supporting functions including format_sequential_data, to get a data series into sequential data format.
+Contains supporting functions including format_sequential_data, to get a data series into sequential data formatting.
 #### **DataSets.py**
-A collection of data sets (mostly physics related) for testing the codes
+A collection of data sets (mostly physics related) for testing and development.
 #### **StartHere.ipynb**
 A notebook showcasing simple use cases of the SRE library for extrapolation.
 
