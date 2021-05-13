@@ -1,5 +1,6 @@
-# SRE (Under Development)
-Sequential Regression Extrapolation (SRE): A method of extrapolation with machine learning and regression algorithms.
+# Sequential Regression Extrapolation (SRE) (Under Development)
+
+Sequential Regression Extrapolation (SRE) is a series of Python files that allows for data to be accurately extrapolated using the machine learning algorithms linear regression, ridge regression, and kernel ridge regression.  SRE also makes use of a method of data formatting called time-series formatting, which is often seen in time-series machine learning applications and recurrent neural networks.  In time-series data formatting, instead of feeding a machine learning algorithm data points of the form (t1, y1), (t2, y2), (t3, y3), etc (where t1, t2, t3 are ordered by time), time series formatting insteads formats the data such that each data point as the following form: ((y1, y2, ...., yn) yn+1) where y1, y2, etc come from time ordered data points and n is a hyperparameter known as the length of the sequence.  n can be any integer greater than one.  The larger n is, the better the machine learning algorithm can learn the time series pattern, but the less points in the formatted data series.  Since not all applications of these codes deal with time ordered data, this method of data formatting will instead be refered to as sequential data formatting, where the data set is ordered based on some x data set.
 
 ## To Use:
 1. Clone Directory
