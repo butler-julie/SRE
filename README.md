@@ -29,7 +29,7 @@ Contains the parent class Regression, and then the child classes LiR (Linear Reg
 #### **Support.py**
 Contains supporting functions including format_sequential_data, to get a data series into sequential data formatting.
 #### **DataSets.py**
-A collection of data sets (mostly physics related) for testing and development.
+A collection of small physics data sets for testing and development.  Note that even though all of these data sets are very small in machine learning terms (each is around 20 data points), SRE is still able to make physically relevant and accurate extrapolations!
 #### **StartHere.ipynb**
 A notebook showcasing simple use cases of the SRE library for extrapolation.
 
