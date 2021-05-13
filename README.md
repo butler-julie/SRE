@@ -15,7 +15,7 @@ from Extrapolate import *
 from Regression import *
 from Support import *
 ```
-* Current version of the code must be used from the directory that contains the files.
+* Currently, developement work using SRE must be done in the folder containing these four files, or use os.path to change the import path.
 * See StartHere.ipynb for simple test cases to use as beginning examples.
 
 ## File Outline
